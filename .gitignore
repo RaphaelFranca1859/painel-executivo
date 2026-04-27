@@ -1,0 +1,16 @@
+# Ignorar fotos dos colaboradores (Privacidade)
+assets/photos/*
+!assets/photos/.gitkeep
+
+# Ignorar planilhas de faturamento (Segurança de Dados)
+*.xlsx
+*.xls
+*.csv
+
+# Ignorar arquivos de sistema e ambientes virtuais Python
+__pycache__/
+.venv/
+venv/
+env/
+.env
+.streamlit/
